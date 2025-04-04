@@ -16,19 +16,29 @@
       background-repeat: no-repeat;
       color: white;
       font-weight: bold;
+      font-size: 1.2em;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
       display: flex;
-      justify-content: center; /* centers vertically */
-      align-items: center;     /* centers horizontally */
+      justify-content: center;
+      align-items: center;
       padding: 20px;
       text-align: center;
     }
+    .container {
+      transform: translateY(-10%);
+    }
     a {
       color: white;
+      text-decoration: underline;
+      /* You can remove text-shadow for links if desired:
+      text-shadow: none;
+      */
     }
   </style>
 </head>
 <body>
-  <div>
+  <div class="container">
     <h1>Code Repository Notice</h1>
     <p>
       The complete code for this project is stored in a private repository.
